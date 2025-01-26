@@ -1,6 +1,8 @@
 "use client"
+import { useState } from "react";
 import { IoIosSearch } from "react-icons/io";
 export default function Home(){
+    const [search, setSearch] = useState("");
     return (
       <div className={``}>
         <div className={`mt-20 flex flex-col items-center justify-center `}>
@@ -17,7 +19,14 @@ export default function Home(){
             <div
               className={`border-2 border-blue-500 rounded-full pl-4 flex items-center p-0`}
             >
-              <input className=" border-none outline-none" />
+              <input
+                type="text"
+                value={search}
+                onChange={(e) => {
+                  setSearch(e.target.value);
+                }}
+                className=" border-none outline-none"
+              />
               <div className={`bg-blue-500 h-full rounded-e-full`}>
                 <IoIosSearch className={`m-2 text-white`} />
               </div>

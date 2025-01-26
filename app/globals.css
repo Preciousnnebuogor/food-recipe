@@ -17,8 +17,8 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background-color: rgb(var(--background-start-rgb)); /* Solid white background */
+  color: #000;
+  background-color: #ffff; /* Solid white background */
 }
 
 @layer utilities {

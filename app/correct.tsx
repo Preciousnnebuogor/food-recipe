@@ -27,7 +27,6 @@ export default function Correct() {
               value={search}
               onChange={(e) => {
                 setSearch(e.target.value);
-                
               }}
               className=" border-none outline-none"
             />
@@ -73,7 +72,7 @@ export default function Correct() {
         {visibleCount < list.length && (
           <button
             onClick={() => setVisibleCount((prev) => prev + 4)} // Directly increment visibleCount
-            className={`bg-green-400 rounded p-2 text-white`}
+            className={`bg-green-400 rounded p-2 text-white mb-4`}
           >
             Load More
           </button>
@@ -81,7 +80,7 @@ export default function Correct() {
         {visibleCount > 4 && (
           <button
             onClick={() => setVisibleCount((prev) => Math.max(4, prev - 4))} // Directly decrement visibleCount
-            className={`bg-red-400 rounded p-2 text-white`}
+            className={`bg-red-400 rounded p-2 text-white mb-4`}
           >
             Show Less
           </button>

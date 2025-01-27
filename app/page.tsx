@@ -6,7 +6,7 @@ import New from "./new";
 
 export default function HomePage() {
   return <div className="w-full bg-white ">
-    <Correct/>
+    <Home/>
     
   </div>;
 }

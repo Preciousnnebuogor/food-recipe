@@ -1,39 +1,68 @@
-"use client"
+"use client";
 import { useState } from "react";
 import { IoIosSearch } from "react-icons/io";
-export default function Home(){
-    const [search, setSearch] = useState("");
-    return (
-      <div className={``}>
-        <div className={`mt-20 flex flex-col items-center justify-center `}>
+import { FoodList } from "./data";
+export default function Home() {
+  const [search, setSearch] = useState("");
+  const [list, setList] = useState(FoodList);
+  return (
+    <div className={``}>
+      <div className={`mt-20 flex flex-col items-center justify-center `}>
+        <div
+          className={`flex flex-col items-center justify-center w-[500px]  `}
+        >
+          <p className={`font-bold text-lg mb-4`}>
+            Food meals for your Ingredients
+          </p>
+          <h6 className={`text-xs mb-4`}>
+            Nigeria home made foods with all ingredient can <br /> - James Mark
+          </h6>
           <div
-            className={`flex flex-col items-center justify-center w-[500px]  `}
+            className={`border-2 border-green-400 rounded-full pl-4 flex items-center p-0`}
           >
-            <p className={`font-bold text-lg mb-4`}>
-              Food meals for your Ingredients
-            </p>
-            <h6 className={`text-xs mb-4`}>
-              Nigeria home made foods with all ingredient can <br /> - James
-              Mark
-            </h6>
-            <div
-              className={`border-2 border-blue-500 rounded-full pl-4 flex items-center p-0`}
-            >
-              <input
-                type="text"
-                value={search}
-                onChange={(e) => {
-                  setSearch(e.target.value);
+            <input
+              type="text"
+              value={search}
+              onChange={(e) => {
+                setSearch(e.target.value);
+              }}
+              className=" border-none outline-none"
+            />
+            <div className={`bg-green-400 h-full rounded-e-full`}>
+              <IoIosSearch
+                className={`m-2 text-white`}
+                onClick={() => {
+                  const filteredList = FoodList.filter((value) =>
+                    value.foodname.toLowerCase().includes(search.toLowerCase())
+                  );
+                  setList(filteredList);
                 }}
-                className=" border-none outline-none"
               />
-              <div className={`bg-blue-500 h-full rounded-e-full`}>
-                <IoIosSearch className={`m-2 text-white`} />
-              </div>
             </div>
-            <p className={`font-bold mt-4`}>Your Search Result:</p>
           </div>
         </div>
+
+        <div></div>
       </div>
-    );
+
+      <div
+        className={`px-10 grid md:grid-cols-3 grid-cols-1 md:space-x-4 mt-10 `}
+      >
+        {list.map((value) => (
+          <div className={`flex flex-col items-center mb-4 `}>
+            <div className={`border-2 border-green-400 rounded `}>
+              <img src={value.image} className={`w-[250px] h-[250px]`} />{" "}
+              <div> </div>
+              <div className={`flex flex-col items-center`}>
+                <p className={`font-bold`}>{value.foodname}</p>
+                <button className={`bg-green-400 rounded px-2 mb-2 text-white`}>
+                  Get recipe
+                </button>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }

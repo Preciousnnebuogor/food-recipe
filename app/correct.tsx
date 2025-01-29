@@ -1,19 +1,27 @@
 "use client";
 import { useState } from "react";
 import { IoIosSearch } from "react-icons/io";
-import { FoodList } from "./data";
+import { FoodList, IFood } from "./data";
+import { Modal } from "./modal";
 
 export default function Correct() {
   const [search, setSearch] = useState("");
   const [list, setList] = useState(FoodList); // Filtered list of foods
   const [visibleCount, setVisibleCount] = useState(4); // Number of items to display
+   const [selectedFood, setSelectedFood] = useState<IFood>({
+      foodname: "",
+      image: "",
+      ingredient: [],
+      desc: [],
+    });
+    const [open, setOpen] = useState<boolean>(false);
 
   return (
     <div className={``}>
       {/* Search Section */}
-      <div className={`mt-20 flex flex-col items-center justify-center`}>
+      <div className={`flex flex-col items-center justify-center`}>
         <div className={`flex flex-col items-center justify-center w-[500px]`}>
-          <p className={`font-bold text-lg mb-4`}>
+          <p className={`font-bold text-lg mb-4 mt-20 `}>
             Food meals for your Ingredients
           </p>
           <h6 className={`text-xs mb-4`}>
@@ -28,7 +36,7 @@ export default function Correct() {
               onChange={(e) => {
                 setSearch(e.target.value);
               }}
-              className=" border-none outline-none"
+              className=" border-none outline-none bg-transparent"
             />
             <div className={`bg-green-400 h-full rounded-e-full`}>
               <IoIosSearch
@@ -47,7 +55,7 @@ export default function Correct() {
 
       {/* Food Items Section */}
       <div
-        className={`px-10 grid md:grid-cols-3 grid-cols-1 md:space-x-4 mt-6`}
+        className={`px-10 grid md:grid-cols-4 grid-cols-1 md:space-x-4 mt-6`}
       >
         {list.slice(0, visibleCount).map((value, index) => (
           <div key={index} className={`flex flex-col items-center mb-4`}>
@@ -59,7 +67,13 @@ export default function Correct() {
               />
               <div className={`flex flex-col items-center`}>
                 <p className={`font-bold`}>{value.foodname}</p>
-                <button className={`bg-green-400 rounded px-2 mb-2 text-white`}>
+                <button
+                  onClick={() => {
+                    setSelectedFood(value);
+                    setOpen(true);
+                  }}
+                  className={`bg-green-400 rounded px-2 mb-2 text-white`}
+                >
                   Get recipe
                 </button>
               </div>
@@ -67,6 +81,24 @@ export default function Correct() {
           </div>
         ))}
       </div>
+
+      <Modal
+        open={open}
+        onClose={() => {
+          setOpen(false);
+        }}
+      >
+        <div
+          className={`flex flex-col overflow-y-scroll max-h-[100vh] w-full pb-3`}
+        >
+          <p className={`font-bold text-center m-2`}>INGREDIENT</p>
+          <div className={`text-lg`}>{selectedFood!.ingredient}</div>
+          <p className={`font-bold text-center m-2`}>PREPARATION</p>
+          <p>{selectedFood!.desc}</p>
+          <hr className={`border-t-solid border-1 border-gray`} />
+        </div>
+      </Modal>
+
       {/* Buttons at the Top */}
       <div className={`flex items-center justify-center space-x-4 mt-6`}>
         {visibleCount < list.length && (

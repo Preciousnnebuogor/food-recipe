@@ -1,17 +1,25 @@
 "use client";
 import { useState } from "react";
 import { IoIosSearch } from "react-icons/io";
-import { FoodList } from "./data";
+import { FoodList, IFood } from "./data";
+import { Modal } from "./modal";
 export default function Home() {
   const [search, setSearch] = useState("");
   const [list, setList] = useState(FoodList);
+  const [selectedFood, setSelectedFood] = useState<IFood>({
+    foodname: "",
+    image: "",
+    ingredient: [],
+    desc: [],
+  });
+  const [open, setOpen] = useState<boolean>(false);
   return (
-    <div className={``}>
-      <div className={`mt-20 flex flex-col items-center justify-center `}>
+    <div>
+      <div className={` flex flex-col items-center justify-center `}>
         <div
           className={`flex flex-col items-center justify-center w-[500px]  `}
         >
-          <p className={`font-bold text-lg mb-4`}>
+          <p className={`font-bold text-lg mb-4 mt-20`}>
             Food meals for your Ingredients
           </p>
           <h6 className={`text-xs mb-4`}>
@@ -55,7 +63,13 @@ export default function Home() {
               <div> </div>
               <div className={`flex flex-col items-center`}>
                 <p className={`font-bold`}>{value.foodname}</p>
-                <button className={`bg-green-400 rounded px-2 mb-2 text-white`}>
+                <button
+                  onClick={() => {
+                    setSelectedFood(value);
+                    setOpen(true);
+                  }}
+                  className={`bg-green-400 rounded px-2 mb-2 text-white`}
+                >
                   Get recipe
                 </button>
               </div>
@@ -63,6 +77,18 @@ export default function Home() {
           </div>
         ))}
       </div>
+      <Modal
+        open={open}
+        onClose={() => {
+          setOpen(false);
+        }}
+      >
+        <div className={`flex flex-col overflow-y-scroll max-h-[100vh] w-full pb-3`}>
+          <p className={`text-xl`}>{selectedFood!.ingredient}</p>
+          <p>{selectedFood!.desc}</p>
+          <hr className={`border-t-solid border-1 border-gray`} />
+        </div>
+      </Modal>
       <div className={`flex items-center justify-center`}>
         <button className={`bg-green-400 rounded p-2 mb-2 text-white`}>
           Load More

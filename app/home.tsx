@@ -59,7 +59,7 @@ export default function Home() {
         {list.map((value) => (
           <div className={`flex flex-col items-center mb-4 `}>
             <div className={`border-2 border-green-400 rounded `}>
-              <img src={value.image} className={`w-[250px] h-[250px]`} />{" "}
+              <img src={value.image} className={`w-[100px] h-[250px] bg-slate-600`} />{" "}
               <div> </div>
               <div className={`flex flex-col items-center`}>
                 <p className={`font-bold`}>{value.foodname}</p>

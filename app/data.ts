@@ -1034,73 +1034,350 @@ Salt,
 Maggi,
 Dry daddawa(Hausa locust beans).`,
     ],
-    desc: [``],
+    desc: [
+      `
+        Get all your ingredients sets aside,cooked meat,grinded groundnuts, grinded melon, 
+        pepper blended,daddawa, and others
+Add veg oil in a pot,diced onion,pour in pepper,meat,and daddawa,crayfish and allow 
+to cook again,add stock cover and allow to summer for 2min
+Add in melon,and allow to cook for 3min,then you add in d grinded groundnut too,mix to avoid burning,
+add little water if soup thick,cover and allow melon and groundnut cook for 15min
+Uncover pot to check if soup is cooked,wash soak moringa in salt water and add to d 
+soup,stir,cover and allow to summer for 2min
+A picture of step 4 of Moringa soup(miyan zogale).
+Serve soup with Eba,semo,waina e.t.c`,
+    ],
   },
   {
     foodname: "Moi Moi",
     image: "/moi moi.jpg",
-    ingredient: [],
-    desc: [],
+    ingredient: [
+      `4 cups Bean,
+2 bell pepper,
+1 medium onion,
+Red pepper,
+Boiled Egg,
+Boil Fish,
+Oil, maggi, curry, thyme, salt,
+Nylon or Container or Plantain leaf `,
+    ],
+    desc: [
+      `Put your beans into a clean bowl, add water and let it soak for 5 minute, peel the back and wash thoroughly.
+Add washed and chopped onion, bell pepper and red pepper to the washed beans. You can add garlic if interested.
+Add water and blend or grind till it is very smooth.
+Add all the ingredients and oil to your desired taste. you can add crayfish, 
+boiled egg or fried fish if interested.
+Add some water and turn till all the ingredients are mixed completely.
+Put some quantity into a (Nylon, Container or Plantain leaf), add your boiled eye and fish and tie them nicely. some people use 
+small bowls. Put them into a clean pot and put on stove. Let it cook for one hour.
+And our moi moi is ready, just a little ingredient but is looks and tastes yummy😋😋😋.
+`,
+    ],
   },
   {
     foodname: "Red Oil Rice",
     image: "/red oil rice.jpg",
-    ingredient: [],
-    desc: [],
+    ingredient: [
+      `
+        4 cups Rice,
+Onion 2medium,
+Habanero pepper as desired,
+1 sachet of tomato paste,
+Iru(locust),
+Crayfish half cup,
+Palm oil half a cup,
+Stock seasoning cubes 5,
+Dried or grilled kpanla fish as desired,
+Meat and other proteins as desired,
+leaves Pumpkins,
+(Ugwu)or scent leave,
+1/2 teaspoon Salt.`,
+    ],
+    desc: [
+      `Wash and per boil the rice.
+Blend pepper,onion together.
+Wash and boil the meat,kpomo and dry fish or kpanla.
+Heat your palm oil.
+Pour your blended pepper and onions to fry
+Add tomato paste and fry for 5mins.
+Add seasoning cubes iru,crayfish and salt to taste then
+add water.
+Add the per boiled protein and let it boil for 5mins then add your rice.
+Stir and cover to cook for at least 30-40min.
+3minutes to turn of the heat,wash and add your ugwu or scent leaves.
+Note: cook on low heat after 20mins.
+Enjoy.`,
+    ],
   },
   {
     foodname: "Nkwobi",
     image: "/Nkwobi.jpg",
-    ingredient: [],
-    desc: [],
+    ingredient: [
+      `1 kg Meat cow foot,
+2 cubes of knorr,
+10 leaves of utazi,
+1 tsp Edible potash,
+200 ml Palm oil,
+1 cup Ugba,
+6 Peppers Scotch bonnet,
+2 slice Onions,
+3 seeds of ehu calabash nutmeg,
+Salt to taste.`,
+    ],
+    desc: [
+      `Season the meat with onions, two seasoning cubes and a teaspoon of salt. cook for 45 minutes. 
+      15 minutes if you are using a pressure cooker.
+You just want the meat soft and easy to chew. The meat stock should be small and thick.
+boil the ugba for just 3 minutes with small water to eliminate fermenting bacterias.
+Disolve the potash in one cup of water and filter into a pot.
+Add the palm oil to the pot and stir very well, it should thicken and become yellow.
+To the same pot, add ground crayfish, Ugba, pepper and salt to taste.
+Add a seasoning cube, [utazi leaves, ehu, and peppers] (all pounded together)
+Stir together and add the meat.
+Stir and serve.
+Note: Some of the utazi should be pounded while the rest should be sliced. You add the pounded 
+one during the preparation process and used the sliced one for decoration.
+`,
+    ],
   },
   {
     foodname: "Ofe Nsala (Soup)",
     image: "/nsala.jpg",
-    ingredient: [],
-    desc: [],
+    ingredient: [
+      `1 KG Pounded Yam,
+1 cup crayfish,
+3 seasoning cubes,
+1 teaspoon Uziza seeds,
+1 cup sliced uziza leaves,
+200 g Dried fish,
+8 Giant Snails Optional,
+1.3 KG Chicken,
+Small dawadawa,
+Sliced utazi leaves,
+Salt to taste,
+2 scotch bonnet peppers.
+`,
+    ],
+    desc: [
+      `Peel and boil some yam, then pound and set aside. You need about 1KG of pounded yam.
+Combine crayfish, uziza seeds, dawadawa and blend to a powder.
+Prepare all the other ingredients (slice the leaves, wash the snails using lime or orange juice)
+Season the chicken with 2 stock/seasoning cubes, teaspoon each of ginger and garlic, teaspoon of salt 
+and allow to boil then add the washed fish.
+Add about 3 cups of water.
+Bring to boil, you want the meat and fish soft and easy to chew. Then add the crayfish, uziza seed blend. 
+The pepper should be followed after tasting.
+You can taste your  soup. You can add an extra seasoning cube or more salt to taste
+Introduce the pounded yam in small portions.
+Let it dissolve and thicken. Then the leaves should come in.
+Let it simmer on low heat for few minutes and you are done.`,
+    ],
   },
   {
     foodname: "Ofada Stew",
     image: "/Ofada Stew.jpg",
-    ingredient: [],
-    desc: [],
+    ingredient: [
+      `
+        Beef,
+        Onions,
+        Salt,
+        Seasoning cube,
+        Galic,
+        Pepper (blended),
+        Tomatoes (blended),
+        Bell pepper(blended),
+        Red oil,
+        Locust beans,
+        Stockfish
+        Egg(boiled)`,
+    ],
+    desc: [
+      `Prepare the meat:
+Wash and season your chosen meat (beef, goat, cow skin) with salt, stock cubes, onions, 
+garlic, and pepper, then boil until almost tender. 
+Wash and blend together tomatoes, bell peppers, onions, and garlic to a semi-coarse consistency. 
+Heat a large pot with palm oil until it becomes very hot and starts to "bleach" 
+(oil separates and floats on top). 
+Add chopped onions to the hot oil and fry until softened, then pour in the blended pepper mixture. 
+Stir in your pre-boiled meat, locust beans (iru), stockfish, boiled egg and any additional seasonings. 
+Cover the pot and simmer until the stew thickens and flavors develop, adjusting salt and pepper to taste. `,
+    ],
   },
   {
     foodname: "Ofe Achara (Soup)",
     image: "/OFE ACHARA.jpg",
-    ingredient: [],
-    desc: [],
+    ingredient: [
+      `leaf Okazi,
+Achara,
+Egusi(melon seed),
+Usu,
+Crayfish,
+Dry fish(catfish/mangala),
+Stock fish,
+Yellow pepper fresh,
+Cameroun pepper,
+Okpei(optional).
+`,
+    ],
+    desc: [
+      `
+        Wash meat and stock fish and cook together adding diced onions, salt,pepper and maggi.
+Wash and debone the dry fish and set aside.make sure to wash with hot water and salt to remove all sand and insects.
+Blend the melon seed with the usu and okpei.transfer to a bowl,add warm water and marsh with hands till it 
+forms a thick paste and oil starts coming out.you can also do this in a mortar and pestle.
+Mould the melon paste to small flat balls and transfer to a small cooking pot.add salt,maggi and 
+crayfish and some cameroun pepper to give taste to the akpurukpu egusi and cook till the moulded egusi turns white.
+When the meat is getting tender,add the kpomo and washed snail,dry fish,crayfish blended 
+with the yellow pepper,pour in the cooked melon mould.add palm oil and small thickener and cover to boil.
+Check for salt and pepper.if not thick enough add more thickener,turn nd cover to cook.
+Add the ukazi leaf and cover to boil.
+Cook for another 10 - 20 mins.
+Serve with semo,fufu,eva,wheat etc.`,
+    ],
   },
   {
     foodname: "Ogbono Soup",
     image: "/Ogbono Soup.jpg",
-    ingredient: [],
-    desc: [],
+    ingredient: [
+      `Pepper,
+Kpomo,
+Meat,
+Dried fish,
+Stock fish,
+Chicken / Beef,
+Locust beans,
+Ginger, garlic, 
+Crayfish,
+Shrimps.`,
+    ],
+    desc: [
+      `
+        Grind your ogbono with crayfish and set aside, turning the flame put your pot 
+        add your palm oil when hot put in your diced onions fry for a while let say have 
+        way, diced into two pour the first one in the grinded ogbono and set aside.
+Now add all your cooked meat, fish,pomo, chicken, and stock fish mix for a while then 
+add in your water allow it to boil for a very long time then add in your seasoning cube, 
+ginger and garlic, locust bean, shrimps and allow to cook too.
+Now pour in your ogbono and cook too then check for your seasoning cubes and others
+Add in your scent leave and allow to simmer for a while and its done
+
+`,
+    ],
   },
   {
     foodname: "Ofe Oha (Soup)",
     image: "/Oha Soup (Ofe Oha).jpg",
-    ingredient: [],
-    desc: [],
+    ingredient: [
+      `Red meat,
+Dried meat,
+Stockfish,
+leaves Oha,
+Ogiri igbo,
+leaves uziza,
+Smoked fish,
+Banga fruit or palm oil,
+Seasonings,
+Cocoyam or powdered cocoyam.`,
+    ],
+    desc: [
+      `
+        Wash and cook the red meat with preferred seasonings. when the meat is half way boiling,add 
+        the washed stockfish, smoked fish and dry meats to boil together.
+Wash and cook the cocoyam, when done, peel off the back and blend until a smooth batter is achieved. 
+Add the cocoyam batter and red oil to the meat stock and allow to cook until the batter is well dissolved.
+Blend crayfish and pepper,add it to the boiling stock. At this stage,add ogiri igbo to the 
+soup and continue cooking.
+Slice the uziza leaves,also slice oha leaves not too tiny, better still use ur hand and tear 
+the leaves. Wash uziza and oha leaves thoroughly with salt and add to the boiling stock..
+Your delicious oha soup is ready to be eaten with any swallow of your choice.
+`,
+    ],
   },
   {
     foodname: "Okpa",
     image: "/okpa.jpg",
-    ingredient: [],
-    desc: [],
+    ingredient: [
+      `Okpa flour (1 & ¹/² mudu),
+Palm oil (1 bottle),
+Scotch bonnet pepper (as desired),
+Onions (2 big bulbs),
+Seasoning cubes and salt (to taste),
+Crayfish (1 cup) grinded,
+Luke-warm water.`,
+    ],
+    desc: [
+      `
+        Sift Okpa flour in a bowl, add palm oil to it and mix until you get a yellowish mixture, 
+        add luke-warm water, mix and dissolve the powder until a smooth paste is formed 
+        and there are no lumps. Your mixture shouldn't be too watery or too thick (just right).
+Add some salt and seasoning cubes to taste, add chopped onions, blended scotch 
+bonnet pepper and crayfish. Mix together. Scoop the paste mixture into banana leaves, 
+nylons or foil paper. Here, I use white nylon. Tie and put in a pot of hot boiling water. 
+Allow to cook until the Okpa is ready.
+Allow to cook until the Okpa is ready. You can add more water to the pot if 
+you notice that the water is drying up and the Okpa isn't ready.
+Your Okpa is ready! Enjoy.`,
+    ],
   },
   {
     foodname: "Okra Soup",
     image: "/Okra Soup.jpg",
-    ingredient: [],
-    desc: [],
+    ingredient: [
+      `Okra
+Red oil,
+Stock fish,
+Dry fish,
+Meat (beaf),
+Water,
+Kponmo,
+Crayfish,
+Pepper,
+Onion,
+Seasoning cube,
+Salt to taste,
+Vegetables.`,
+    ],
+    desc: [
+      `Wash your Okro, cut or grate and set aside.
+Cook your meat, stock fish, fish, Ponmo and set aside.
+In a pot, add your oil and allow it to heat up, add in your chopped onion and site, pour in your okra stir.
+Then add the boiled/ cooked meat, add your pepper, seasoning, salt to taste and stir.
+Do not over cook then add your leaves stir and bring down.
+`,
+    ],
   },
   {
     foodname: "Owo Soup",
     image: "/Owo soup.jpg",
-    ingredient: [],
-    desc: [],
+    ingredient: [
+      `4 pinch Native potash,
+3 seasoning cubes,
+1/2 kg dried Beef,
+1kg Dried fish,
+150g Starch,
+Big prawn (as desired),
+1 spoon full blended Crayfish,
+1 tablespoon dried Pepper,
+3 Red oil,
+Salt.
+`,
+    ],
+    desc: [
+      `Boil the meat using just the Maggi cubes and water until 
+      almost tender then add the dried fish and cook together until tender.
+Add more water to the stock enough for the soup quantity.
+Then pour in the blended crayfish and pepper and stir.
+Add the big dried prawn then let it boil for 5minutes.
+Taste that the seasoning is okay and add the palm oil.
+Put the starch in a bowl and add some water.
+Add the native salt to the meat stock.
+Start pouring in the starch mixture into the stock until the soup is thick. 
+Make sure you stir continuosly as you pour in the starch
+Take note that when you add the native salt, the soup would foam up.
+So use a pot big enough and be stirring as you add the native salt.
+Do not cover with the lid and allow to cook for 2-3minutes and your Own soup is ready.
+`,
+    ],
   },
   {
     foodname: "Peanut Sauce",

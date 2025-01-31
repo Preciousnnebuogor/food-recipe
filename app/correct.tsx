@@ -13,6 +13,7 @@ export default function Correct() {
       image: "",
       ingredient: [],
       desc: [],
+      category: ""
     });
     const [open, setOpen] = useState<boolean>(false);
 
@@ -24,6 +25,70 @@ export default function Correct() {
           <p className={`font-bold text-lg mb-4 mt-20 `}>
             Food meals for your Ingredients
           </p>
+          <div
+            className={`flex justify-center items-center space-x-2 font-bold text-sm mb-4`}
+          >
+            <button
+              onClick={() => {
+                const filteredList = FoodList.filter(
+                  (food) => food.category === "soup"
+                );
+                setList(filteredList);
+              }}
+            >
+              •Soup
+            </button>
+            <button
+              onClick={() => {
+                const filteredList = FoodList.filter(
+                  (food) => food.category === "swallow"
+                );
+                setList(filteredList);
+              }}
+            >
+              •Swallow
+            </button>
+            <button
+              onClick={() => {
+                const filteredList = FoodList.filter(
+                  (food) => food.category === "rice"
+                );
+                setList(filteredList);
+              }}
+            >
+              •Rice
+            </button>
+            <button
+              onClick={() => {
+                const filteredList = FoodList.filter(
+                  (food) => food.category === "sauce"
+                );
+                setList(filteredList);
+              }}
+            >
+              •Sauce
+            </button>
+            <button
+              onClick={() => {
+                const filteredList = FoodList.filter(
+                  (food) => food.category === "snack"
+                );
+                setList(filteredList);
+              }}
+            >
+              •Snacks
+            </button>
+            <button
+              onClick={() => {
+                const filteredList = FoodList.filter(
+                  (food) => food.category === "beans"
+                );
+                setList(filteredList);
+              }}
+            >
+              •Beans
+            </button>
+          </div>
           <h6 className={`text-xs mb-4`}>
             Nigeria home made foods with all ingredient can <br /> - James Mark
           </h6>

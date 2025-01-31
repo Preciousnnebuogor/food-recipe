@@ -11,6 +11,7 @@ export default function Home() {
     image: "",
     ingredient: [],
     desc: [],
+    category: ""
   });
   const [open, setOpen] = useState<boolean>(false);
   return (
@@ -22,6 +23,13 @@ export default function Home() {
           <p className={`font-bold text-lg mb-4 mt-20`}>
             Food meals for your Ingredients
           </p>
+          <div className={`flex justify-center items-center space-x-2 font-bold mb-4`}>
+            <button>Soup</button>
+            <button>Swallow</button>
+            <button>Stew</button>
+            <button>Sauce</button>
+            <button>Snacks</button>
+          </div>
           <h6 className={`text-xs mb-4`}>
             Nigeria home made foods with all ingredient can <br /> - James Mark
           </h6>
@@ -59,7 +67,10 @@ export default function Home() {
         {list.map((value) => (
           <div className={`flex flex-col items-center mb-4 `}>
             <div className={`border-2 border-green-400 rounded `}>
-              <img src={value.image} className={`w-[100px] h-[250px] bg-slate-600`} />{" "}
+              <img
+                src={value.image}
+                className={`w-[100px] h-[250px] bg-slate-600`}
+              />{" "}
               <div> </div>
               <div className={`flex flex-col items-center`}>
                 <p className={`font-bold`}>{value.foodname}</p>
@@ -83,7 +94,9 @@ export default function Home() {
           setOpen(false);
         }}
       >
-        <div className={`flex flex-col overflow-y-scroll max-h-[100vh] w-full pb-3`}>
+        <div
+          className={`flex flex-col overflow-y-scroll max-h-[100vh] w-full pb-3`}
+        >
           <p className={`text-xl`}>{selectedFood!.ingredient}</p>
           <p>{selectedFood!.desc}</p>
           <hr className={`border-t-solid border-1 border-gray`} />

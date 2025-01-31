@@ -3,12 +3,14 @@ export type IFood = {
   image: string;
   ingredient: string[];
   desc: string[];
+  category: string;
 };
 
 export const FoodList: IFood[] = [
   {
     foodname: "Abacha (African Salad)",
     image: "/Abacha.jpg",
+    category: "snack",
     ingredient: [
       `2 cups of Abacha (cassava flakes),
        1-2 pieces of fish (dry or fried fish, e.g.,mackerel),
@@ -38,6 +40,7 @@ export const FoodList: IFood[] = [
   {
     foodname: "AKara (Beans Balls)",
     image: "/akara.jpg",
+    category: "snack",
     ingredient: [
       `2 cups of peeled beans (black-eyed peas or brown beans),
       1 medium onion (chopped),
@@ -60,6 +63,7 @@ export const FoodList: IFood[] = [
   {
     foodname: "Akidi & Abacha",
     image: "/Akidi and Abacha.jpg",
+    category: "snack",
     ingredient: [
       `Akidi (Black Beans): 1 cup (cooked until tender), 
 Palm oil: ½ cup,
@@ -90,6 +94,7 @@ Boiled eggs: 2 (for serving, optional).
   },
   {
     foodname: "Alkubus",
+    category: "swallow",
     image: "/Alkubus.webp",
     ingredient: [
       `flour: 4 cups (all-purpose flour),
@@ -114,6 +119,7 @@ Boiled eggs: 2 (for serving, optional).
   {
     foodname: "Atama (Soup)",
     image: "/Atama soup.jpg",
+    category: "soup",
     ingredient: [
       `palmNutExtract: "2 cups (or palm fruit blended and sieved),
     meat: 1kg (assorted meat, goat meat, or beef),
@@ -140,6 +146,7 @@ Boiled eggs: 2 (for serving, optional).
   {
     foodname: "Balangu",
     image: "/Balangu.jpg",
+    category: "snack",
     ingredient: [
       `beef: 1kg (or lamb/goat meat, cut into thin strips),
     salt: to taste,
@@ -165,6 +172,7 @@ Boiled eggs: 2 (for serving, optional).
   {
     foodname: "Banga Rice",
     image: "/banga rice.jpg",
+    category: "rice",
     ingredient: [
       `rice:  (washed and drained),
     palmNutExtract: 2 cups (or palm fruit blended and sieved),
@@ -196,6 +204,7 @@ Boiled eggs: 2 (for serving, optional).
   {
     foodname: "Banga Soup (Ofe Akwu)",
     image: "/Banga Soup.jpg",
+    category: "soup",
     ingredient: [
       `PalmNutExtract: 2 cups (or palm fruit blended and sieved),
     AssortedMeat: 500g (beef, goat meat, or chicken, cooked),
@@ -228,6 +237,7 @@ Boiled eggs: 2 (for serving, optional).
   {
     foodname: "Bitterleaf Soup",
     image: "/Bitterleaf Soup.jpg",
+    category: "soup",
     ingredient: [
       `2 kg cow head meat,
 3 cups washed bitter leaves,
@@ -253,6 +263,7 @@ Allow your soup to simmer on medium heat for 6 minutes and you are done with mak
   {
     foodname: "Boli and Kpomo Sauce",
     image: "/Boli.jpg",
+    category: "snack",
     ingredient: [
       `Pomo,
 Onions,
@@ -279,6 +290,7 @@ Enjoy with your choice drink!!!`,
   {
     foodname: "Catfish Pepper Soup",
     image: "/Catfish Peppersoup.jpg",
+    category: "soup",
     ingredient: [
       `1 medium-sized catfish (1.2KG),
 Half cup of sliced onions,
@@ -305,6 +317,7 @@ Add the leaves, allow to simmer for 3 minutes and you are done with this catfish
   {
     foodname: "Coconut Fried Rice ",
     image: "/Coconut Fried Rice.jpg",
+    category: "rice",
     ingredient: [
       `2 cups,
 1 ½ cups homemade or shop-bought coconut milk
@@ -337,6 +350,7 @@ Reduce the heat and cook rice until rice is fluffy, tender and light. Once the r
   {
     foodname: "Curry Sauce",
     image: "/curry sauce.jpg",
+    category: "sauce",
     ingredient: [
       `1 carrot,
 1 onion,
@@ -369,6 +383,7 @@ Stir and add salt if necessary and it's done!`,
   {
     foodname: "Edikaikong (Soup)",
     image: "/Edikaikong Soup.jpg",
+    category: "soup",
     ingredient: [
       `Waterleaf 12 cups,
 Fluted pumpkin ugwu leaf (8 cups),
@@ -397,6 +412,7 @@ Stir and taste for salt, you can add another seasoning cube. Allow simmering for
   {
     foodname: "Efo Riro (Soup)",
     image: "/Efo Riro.jpg",
+    category: "soup",
     ingredient: [
       `8 cups Sliced Spinach leaves,
 6 pieces stock fish ear,
@@ -423,6 +439,7 @@ You can see the video for preparing efo riro below
   {
     foodname: "Egg Sauce",
     image: "/Egg sauce and Yam.jpg",
+    category: "sauce",
     ingredient: [
       `4 eggs.
 2 spoons sliced pepper
@@ -448,6 +465,7 @@ Serve egg sauce with boiled white yams.`,
   {
     foodname: "Ofe Egusi (Soup)",
     image: "/Egusi soup.jpg",
+    category: "soup",
     ingredient: [
       `2 cups of Egusi (melon) seeds, ground,
 2 cups of assorted meats (chicken, beef, or goat meat), cooked and roasted,
@@ -478,6 +496,7 @@ Serve the egusi soup with pounded yam, or any other swallow of your choice.`,
   {
     foodname: "Ekpang Nkukwo (Soup)",
     image: "/Ekpang Nkukwo.jpg",
+    category: "soup",
     ingredient: [
       `1 kg water yam,
 1.5 kg cocoyam,
@@ -512,6 +531,7 @@ Your ekpang dish is ready. Bring it down and enjoy this African goodness.`,
   {
     foodname: "Ewa Agoyin",
     image: "/Ewa Agoyin.jpg",
+    category: "",
     ingredient: [
       `4 cups Beans,
 Water,
@@ -540,6 +560,7 @@ add palm oil and allow the oil to heat very well. Add the onions and locust bean
   {
     foodname: "Ewedu (Soup)",
     image: "/Ewedu Soup.jpg",
+    category: "soup",
     ingredient: [
       `Ewedu leaves (corchorus olitorius/Jute),
 Potash (A small sized stone or 1/2 tsp if powdered),
@@ -585,6 +606,7 @@ that if yoruba people were to have their own flag it will be in the colours of t
   {
     foodname: "Fankasu",
     image: "/Fankasu.jpg",
+    category: "snack",
     ingredient: [
       `Flour,
 Wheat flour,
@@ -609,6 +631,7 @@ Continue till the pastry finish. Best serve with soup either vegetable or sauce.
   {
     foodname: "Fisherman Soup (Rivers Native Soup)",
     image: "/fisherman soup.jpg",
+    category: "soup",
     ingredient: [
       `1/2 kg cat fish cleaned,
 10 pieces stock fish ear (nti okporoko),
@@ -636,6 +659,7 @@ Serve with rice or any swallow of your choice.`,
   {
     foodname: "Fried Rice",
     image: "/fried rice.jpg",
+    category: "rice",
     ingredient: [
       `
         4 cups 🍚 rice,
@@ -667,6 +691,7 @@ Until the flavors soak in and the rice is properly cooked then off heat and serv
   {
     foodname: "Fry Plantain",
     image: "/fry plaintain.jpg",
+    category: "snack",
     ingredient: [
       `
         groundnut oil,
@@ -684,6 +709,7 @@ Until the flavors soak in and the rice is properly cooked then off heat and serv
   {
     foodname: "Gbegiri (Soup)",
     image: "/Gbegiri Soup.jpg",
+    category: "soup",
     ingredient: [
       `2 Cups Black eyed or Brown Beans,
 3 Tablespoons Palm Oil,
@@ -717,6 +743,7 @@ Serve with your favourite swallow…`,
   {
     foodname: "Groudnut Soup",
     image: "/Groundnut Soup.jpg",
+    category: "soup",
     ingredient: [
       `Assorted meat/fish,
 1 cup raw ground nut (roasted groundnut works as well),
@@ -750,6 +777,7 @@ Serve with rice or any swallow of choice.`,
   {
     foodname: "Gurasa",
     image: "Gurasa.jpg",
+    category: "snack",
     ingredient: [
       `2 cups flour,
 2 tbspn powered milk,
@@ -775,6 +803,7 @@ Emmmmm😋😋😋`,
   {
     foodname: "Garden egg sauce",
     image: "/Garden egg sauce.jpg",
+    category: "sauce",
     ingredient: [
       `Garden eggs,
 Fresh pepper,
@@ -799,6 +828,7 @@ Serve with your boiled yam or rice.`,
   {
     foodname: "Jollof Rice",
     image: "jollof rice.jpg",
+    category: "rice",
     ingredient: [
       `1 cup Rice,
 1 tbsp Tomatoes paste,
@@ -829,6 +859,7 @@ Remove from heat.`,
   {
     foodname: "Kiliahi",
     image: "/kilishi.jpg",
+    category: "snack",
     ingredient: [
       `1 kg Beef,
 1/2 tspn garlic powder,
@@ -863,6 +894,7 @@ Finally here is our kilishi😋`,
   {
     foodname: "Kulikuli",
     image: "/kulikuli.jpg",
+    category: "snack",
     ingredient: [
       `4 cups groundnut (dry),
 3 cups clean sand,
@@ -889,6 +921,7 @@ Kuli kuli is ready. Is very very good for snack.`,
   },
   {
     foodname: "Miyan Geda (Soup)",
+    category: "soup",
     image: "Miyan Geda.jpg",
     ingredient: [
       `2 cups of groundnuts peanuts,
@@ -924,6 +957,7 @@ Your groundnut soup or miyan geda is ready to serve.`,
   {
     foodname: "Miyan Karkashi (Soup)",
     image: "/Miyan Karkashi.jpg",
+    category: "soup",
     ingredient: [
       `5 pieces chicken,
 2 cubes Maggi,
@@ -947,6 +981,7 @@ Add your dry Karkashi along with cooked beans,Maggi,salt and toka to for 10-15mi
   {
     foodname: "Miyan Kuka (Soup)",
     image: "/miyan-kuka2.jpg",
+    category: "soup",
     ingredient: [
       `1 litre kuka,
 Daddawa,
@@ -968,6 +1003,7 @@ Serve with Tuwan Masara or any swallow of your choice😋.`,
   {
     foodname: "Miyan Taushe (Soup)",
     image: "/Miyan Taushe.jpg",
+    category: "soup",
     ingredient: [
       `2 cups grounded gyada,
 1 cup pumpkin purée,
@@ -1001,6 +1037,7 @@ what make the soup more flavorful (especially the nutmeg).
   {
     foodname: "Miyan Yakuwa (Soup)",
     image: "/Miyan Yakuwa.webp",
+    category: "soup",
     ingredient: [
       `1 big onion,
 2 big tomatoes,
@@ -1023,6 +1060,7 @@ Put the mixture into the stew and add a pinch of sugar, add water and allow it t
   {
     foodname: "Miyan Zogale (Moringa Soup)",
     image: "/Miyan Zogale (Moringa Soup.jpg",
+    category: "soup",
     ingredient: [
       `Grounded melon,
 Pepper,tomatos,
@@ -1051,6 +1089,7 @@ Serve soup with Eba,semo,waina e.t.c`,
   {
     foodname: "Moi Moi",
     image: "/moi moi.jpg",
+    category: "beans",
     ingredient: [
       `4 cups Bean,
 2 bell pepper,
@@ -1077,6 +1116,7 @@ And our moi moi is ready, just a little ingredient but is looks and tastes yummy
   {
     foodname: "Red Oil Rice",
     image: "/red oil rice.jpg",
+    category: "rice",
     ingredient: [
       `
         4 cups Rice,
@@ -1112,6 +1152,7 @@ Enjoy.`,
   {
     foodname: "Nkwobi",
     image: "/Nkwobi.jpg",
+    category: "snack",
     ingredient: [
       `1 kg Meat cow foot,
 2 cubes of knorr,
@@ -1142,6 +1183,7 @@ one during the preparation process and used the sliced one for decoration.
   },
   {
     foodname: "Ofe Nsala (Soup)",
+    category: "soup",
     image: "/nsala.jpg",
     ingredient: [
       `1 KG Pounded Yam,
@@ -1176,6 +1218,7 @@ Let it simmer on low heat for few minutes and you are done.`,
   {
     foodname: "Ofada Stew",
     image: "/Ofada Stew.jpg",
+    category: "rice",
     ingredient: [
       `
         Beef,
@@ -1205,6 +1248,7 @@ Cover the pot and simmer until the stew thickens and flavors develop, adjusting 
   },
   {
     foodname: "Ofe Achara (Soup)",
+    category: "soup",
     image: "/OFE ACHARA.jpg",
     ingredient: [
       `leaf Okazi,
@@ -1238,6 +1282,7 @@ Serve with semo,fufu,eva,wheat etc.`,
   {
     foodname: "Ogbono Soup",
     image: "/Ogbono Soup.jpg",
+    category: "soup",
     ingredient: [
       `Pepper,
 Kpomo,
@@ -1267,6 +1312,7 @@ Add in your scent leave and allow to simmer for a while and its done
   {
     foodname: "Ofe Oha (Soup)",
     image: "/Oha Soup (Ofe Oha).jpg",
+    category: "soup",
     ingredient: [
       `Red meat,
 Dried meat,
@@ -1296,6 +1342,7 @@ Your delicious oha soup is ready to be eaten with any swallow of your choice.
   {
     foodname: "Okpa",
     image: "/okpa.jpg",
+    category: "Beans",
     ingredient: [
       `Okpa flour (1 & ¹/² mudu),
 Palm oil (1 bottle),
@@ -1321,6 +1368,7 @@ Your Okpa is ready! Enjoy.`,
   },
   {
     foodname: "Okra Soup",
+    category: "soup",
     image: "/Okra Soup.jpg",
     ingredient: [
       `Okra
@@ -1348,6 +1396,7 @@ Do not over cook then add your leaves stir and bring down.
   },
   {
     foodname: "Owo Soup",
+    category: "soup",
     image: "/Owo soup.jpg",
     ingredient: [
       `4 pinch Native potash,
@@ -1379,20 +1428,17 @@ Do not cover with the lid and allow to cook for 2-3minutes and your Own soup is 
 `,
     ],
   },
-  {
-    foodname: "Peanut Sauce",
-    image: "/Peanut Sauce Recipe.jpg",
-    ingredient: [],
-    desc: [],
-  },
+
   {
     foodname: "Pepper Soup",
+    category: "soup",
     image: "/Pepper Soup.jpg",
     ingredient: [],
     desc: [],
   },
   {
     foodname: "Spaghetti",
+    category: "soup",
     image: "/Spaghetti.jpg",
     ingredient: [],
     desc: [],

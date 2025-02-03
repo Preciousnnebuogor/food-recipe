@@ -1862,7 +1862,7 @@ Mix again to combine the water and the agidi jollof.dish the agidi on the uma le
     category: "rice",
     ingredient: [
       `2 cups parboiled white rice
-1 coconut,
+1 coconut (very mature, sweet coconut),
 ½ cup shrimps,
 ¼ cup green peas,
 Salt (to your taste).`,
@@ -1883,83 +1883,205 @@ When all the liquid dries up, the rice should be down. That is if you precooked 
   {
     foodname: "Ofe Akwu (Banga Stew)",
     image: "/Ofe Akwu (Banga Stew).jpg",
-    ingredient: [],
+    category: "soup",
+    ingredient: [``],
     desc: [],
   },
   {
     foodname: "Ofe Ugba (Oil Bean Soup)",
     image: "/Ofe Ugba (Oil Bean Soup).jpg",
+    category: "soup",
     ingredient: [],
     desc: [],
   },
   {
     foodname: "Peanut Soup",
     image: "/peanut_soup.webp",
+    category: "soup",
     ingredient: [],
     desc: [],
   },
   {
     foodname: "Pepper Stew",
     image: "/pepper-stew.jpg",
-    ingredient: [],
-    desc: [],
+    category: "sauce",
+    ingredient: [
+      `1 liter Banga paste/ palm fruits,
+Cow meat,
+Kpomo,
+Crayfish,
+cubes Maggi,
+Salt,
+leaves Scent,
+Banga spices,
+Okpei,
+1 onions,
+Fresh tomatoes(optional),
+Scotch bonnet pepper.`,
+    ],
+    desc: [
+      `Wash meat and Kpomo clean, pour in a pot, steam with maggi, salt, onions and little pepper(can be dry pepper) then add water to get the stock.
+I made use of banga paste.
+if using palm fruits, wash palm fruits put in a pot, add enough water, 
+Boil until soft, remove from pot and put into a mortar,pound to separate flesh from nut, select nuts aside
+Then use warm water to wash and squeeze the flesh extracting the water until it becomes concentrated then sieve, this can be done repeatedly or at once depending on the size of the palm fruit.
+Put in a pot and start the cooking process.
+In a dry pot pour in the banga paste, allow to boil then add the meat stock, pour in tiny sliced tomatoes,pepper and onions,add the crayfish,maggi cubes,banga spice, dissolved opei, add meat and kpomo,salt to taste,allow to boil until it starts to thicken, then add the chopped scent leaves, simmer for 2 minutes and it’s ready.
+Serve with boiled white rice,can add fried plantain or beans at the side and enjoy 😉`,
+    ],
   },
   {
     foodname: "Snail Soup (Ofe Ejula)",
+    category: "soup",
     image: "/Snail soup, or “Ofe ejula,.webp",
-    ingredient: [],
-    desc: [],
+    ingredient: [
+      `Snail,
+Salt, maggi,
+Fresh pepper,
+Dry pepper,
+Palm oil,
+leaf Small oziza,
+Stock fish.
+`,
+    ],
+    desc: [
+      `Wash your snail thoroughly with alum and put inside the pot. Add your salt,maggi and fry peer to taste.
+Then pound fresh pepper and cut oziza leaf down. Add the smashed pepper. Put your stock fish and cover the pot to allow everything cook and mix well.
+In 25mins time, add your Palm oil to it and cover the pot. Allow to thicken naturally in another 20mins and ooops,it's ready for serve.
+Then heat up pot.`,
+    ],
   },
   {
     foodname: "Acha (Fonio) Swallow",
     image: "/Acha (Fonio).jpg",
-    ingredient: [],
-    desc: [],
+    category: "swallow",
+    ingredient: [`Acha`],
+    desc: [
+      `In a pot add your water allow to come to a boiling state.
+Add your washed acha, reduce the flame for it to slow cook, when the water has dried up and the acha is very soft use your turning stick to turn it into a smooth paste.
+Enjoy with any soup of choice.`,
+    ],
   },
   {
     foodname: "Amala (Swallow)",
     image: "/Amala.jpg",
-    ingredient: [],
-    desc: [],
+    category: "swallow",
+    ingredient: [
+      `floor (Abebi Yam Flour).
+        Hot water.`,
+    ],
+    desc: [
+      `First, heat water on the fire and allow boiling.
+After that, bring it down from the fire and gradually add your Abebi Yam Flour. Do not add the yam flour to the water while still on the fire so it doesn’t form lumps.
+Then, turn the yam flour with a wooden Eba stick (omorogun) quickly so as not to form lumps.
+Turn for a while, add little water and put it back on the fire to cook on low heat for about 5 minutes.
+Finally, after 5 minutes, begin to turn the Àmàlà again, keep turning until a smooth paste is formed. The pulling of the dough into a smooth paste is the most difficult part of making Elubo.
+`,
+    ],
   },
   {
     foodname: "Coleslaw Salad",
     image: "/coleselaw.jpg",
-    ingredient: [],
-    desc: [],
+    category: "rice",
+    ingredient: [
+      `Cabbage,
+Carrots,
+Mayonnaise or salad cream`,
+    ],
+    desc: [
+      `Rinse the cabbage and using a knife, slice thinly on a chopping board.
+(You can use a grater but I personally find it easier and faster to use knife).
+Wash the carrots, use a potato peeler to scrape the skin off then shred with a grater.
+Mix the cabbage and grated carrot in a bowl.
+Add in mayonnaise or salad cream and mix.
+Coleslaw is best served chilled.
+`,
+    ],
   },
   {
     foodname: "Eba (Swallow)",
+    category: "swallow",
     image: "/eba.jpg",
-    ingredient: [],
-    desc: [],
+    ingredient: [
+      `Garri,
+        Hot water,
+        Bowl.`,
+    ],
+    desc: [
+      `Add hot water to a bowl (water must be at rolling boiling point)
+sprinkle the garri into the water (distributing it evenly as much as you can) use a wooden spatula 
+or spoon to turn it together until smooth and lump free. Just like the stovetop method, add more 
+garri if it is too soft or more of the hot water it is too hard.`,
+    ],
   },
   {
     foodname: "Fufu (Swallow)",
+    category: "swallow",
     image: "/fufu.jpg",
-    ingredient: [],
-    desc: [],
+    ingredient: [`Fufu floor`],
+    desc: [
+      `First, heat water on the fire and allow boiling.
+After that, bring it down from the fire and gradually add your Abebi Yam Flour. Do not add the fufu flour to the water while still on the fire so it doesn’t form lumps.
+Then, turn the fufu flour with a wooden Eba stick (omorogun) quickly so as not to form lumps.
+Turn for a while, add little water and put it back on the fire to cook on low heat for about 5 minutes.
+Finally, after 5 minutes, begin to turn the fufu again, keep turning until a smooth paste is formed. The pulling of the dough into a smooth paste is the most difficult part of making Elubo.`,
+    ],
   },
   {
     foodname: "Plantain Swallow",
     image: "/Plantain Fufu.jpg",
-    ingredient: [],
-    desc: [],
+    category: "swallow",
+    ingredient: [` raw (green) plantain`],
+    desc: [
+      `Peel the plantain then cut it into cubes and dry.
+Place it in a blender when dried and blend until smooth. Water can be added to aid blending.
+Pour into a small pot and place it on fire. Lower the flame. Stir it as it cooks and 
+it will gradually come together to form a solid lump of swallow. The change in color is normal. It becomes dark.`,
+    ],
   },
   {
     foodname: "Pounded Yam (Swallow)",
     image: "/Pounded Yam.jpg",
-    ingredient: [],
-    desc: [],
+    category: "swallow",
+    ingredient: [`Yam`],
+    desc: [
+      `Peel the yam and cut moderate size
+A picture of step 1 of Pounded yam.
+Wash and put in a pot add water enough to cover the yam.
+A picture of step 2 of Pounded yam.
+Allow to cook completely and become very soft. Remove the yam and place it in a food 
+processor or pounded yam machine to make the yam pounded. Use cling film and roll 
+the pounded yam or make any fancy style of choice. Served mine with rich egusi soup.`,
+    ],
   },
   {
     foodname: "Salad",
     image: "/salad.jpg",
-    ingredient: [],
-    desc: [],
+    category: "rice",
+    ingredient: [
+      `Medium size cabbage,
+4 medium size carrot,
+lettuce leaves,
+2 cups of chopped green beans,
+half cup peas (optional),
+3 cooked eggs,
+one can of baked beans,
+2 big size of cucumber,
+salad cream (heinz, BAMA mayonnaise).`,
+    ],
+    desc: [
+      `Chop the carrot /green beans/cucumber and set aside in different bowls, I like to peel off the greenback of cucumbers and also remove the center seeds, you will learn how this is done by watching the video at the bottom of this page.
+
+Slice the cabbage too in a different tray (we use tray often in our home), slice the lettuce leaves, boil the eggs and remove the shell (3 eggs).
+
+You then need to soften the green beans, carrot, and peas, most of the time we heat carrot, green beans, and peas together and soak the cabbage in warm water for a minute.
+
+Soaking the cabbage in warm water was a trick to soften the cabbage, these days, I do not use warm water. I just wash with cold water, slice and mix with the rest of the vegetables.`,
+    ],
   },
   {
     foodname: "Semovita Semo (Swallow)",
+    category: "swallow",
     image: "/semo.jpg",
     ingredient: [],
     desc: [],
@@ -1967,11 +2089,13 @@ When all the liquid dries up, the rice should be down. That is if you precooked 
   {
     foodname: "Tuwo Shinkafa (Swallow)",
     image: "/Tuwo Shinkafa.jpg",
+    category: "swallow",
     ingredient: [],
     desc: [],
   },
   {
     foodname: "Starch (Swallow)",
+    category: "swallow",
     image: "/starch.jpg",
     ingredient: [],
     desc: [],
@@ -1979,12 +2103,14 @@ When all the liquid dries up, the rice should be down. That is if you precooked 
   {
     foodname: "wheat Swallow",
     image: "/wheat swallow.jpg",
+    category: "swallow",
     ingredient: [],
     desc: [],
   },
   {
     foodname: "",
     image: "",
+    category: "",
     ingredient: [],
     desc: [],
   },

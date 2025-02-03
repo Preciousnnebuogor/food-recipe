@@ -40,7 +40,7 @@ export const FoodList: IFood[] = [
   {
     foodname: "AKara (Beans Balls)",
     image: "/akara.jpg",
-    category: "snack",
+    category: "beans",
     ingredient: [
       `2 cups of peeled beans (black-eyed peas or brown beans),
       1 medium onion (chopped),
@@ -1433,12 +1433,31 @@ Do not cover with the lid and allow to cook for 2-3minutes and your Own soup is 
     foodname: "Pepper Soup",
     category: "soup",
     image: "/Pepper Soup.jpg",
-    ingredient: [],
-    desc: [],
+    ingredient: [
+      `1kg chicken (Use hard chicken (hen)),
+1 tablespoon ground ehu (calabash nutmeg),
+3 small seasoning cubes (chicken flavour),
+Scent leaves,
+Habanero pepper (to taste),
+Sweet pepper or tatashe (see video below for quantity),
+Red onions (Peel and cut the onion into 4 big chunks),
+1 teaspoon thyme (optional),
+Salt (to taste).`,
+    ],
+    desc: [
+      `Put the pieces of chicken in a pot.
+Add thyme, ground ehu and the seasoning cubes (crushed).
+Turn on the heat to medium and start steaming while stirring till the pieces of chicken have gotten a good steam.
+Add the chunks of onion, pour water to cover the contents of the pot, cover and start cooking till the chicken is soft. Top up the water when necessary while cooking.
+When the chicken is done, take out the now deflated chunks of onion. The reason we used chunks of onion is because you don’t want pieces of onion in your Nigerian Pepper Soup.
+Add the chopped peppers and vegetables.
+Leave to boil for 3 to 5 minutes.
+Add salt to your taste and that’s it!`,
+    ],
   },
   {
     foodname: "Spaghetti",
-    category: "soup",
+    category: "rice",
     image: "/Spaghetti.jpg",
     ingredient: [],
     desc: [],
@@ -1446,98 +1465,420 @@ Do not cover with the lid and allow to cook for 2-3minutes and your Own soup is 
   {
     foodname: "Suya",
     image: "suya.jpg",
-    ingredient: [],
-    desc: [],
+    category: "snack",
+    ingredient: [
+      `Beef (1KG),
+Suya Spice (Suya powder),
+2 seasoning cubes,
+Salt to Taste,
+Ground dried pepper (optional),
+Suya sticks (optional),,
+vegetable oil (100ml)
+Griller.`,
+    ],
+    desc: [
+      `Wash the beef properly and slice into thin fillets. You can easily do this with a kitchen knife.
+Transfer 5 spoons of the suya (spice) to a clean dry plate and add 2 seasoning cubes plus a half teaspoon of salt to it, mix them properly together, and set aside. You will need to taste it to find out that it actually tastes like what you get from the mallam.
+Stake the beef on the sticks and sprinkle the mixed spice all around it, sprinkle evenly on both sides, and begin with the grilling part.
+Use a kitchen brush to rob the vegetable oil on the beef before grilling; this actually helps the grilling process.
+Apply more of the spices.
+Grill your suya using the local or electric grill. You can also use your kitchen oven if it has a grill compartment. I used my kitchen oven.
+Use a kitchen brush to rob the vegetable oil on the beef before grilling; this actually helps the grilling process.
+Apply more of the spices.
+Grill your suya using the local or electric grill. You can also use your kitchen oven if it has a grill compartment. I used my kitchen oven.
+Turn every ten minutes while it grills. After twenty minutes, you will need to apply more of the spices/vegetable oil again. Grill for another 20 minutes, and you just made Suya!
+Serve with onions, pepper, cabbage, tomatoes, etc.
+`,
+    ],
   },
   {
     foodname: "Ugba",
     image: "/Ugba.jpg",
-    ingredient: [],
-    desc: [],
+    category: "snack",
+    ingredient: [
+      `2 cups ugba,
+1 tsp potashed powder,
+1 cksp palm oil,
+2 tbsp blended pepper,
+1 bulb onion dice,
+1/2 cup crayfish,
+1 cup kpomo diced / fried fish,
+utazi leaf diced,
+ Salt(to taste),
+2 knorr cube,
+`,
+    ],
+    desc: [
+      `Pour potash in a small bowl and add water soak.
+In a medium pot pour in Palm oil and stir in potash water and stir to get a yellow consistency sauce once it thick and yellow.
+Add salt, knorr cube, crayfish, pepper and onion and stir.
+Add ugba, kpomo, taste to confirm consistency then add the utazi leaf mix in together and serve.`,
+    ],
   },
   {
     foodname: "Ukodo",
     image: "/Ukodo.jpg",
-    ingredient: [],
-    desc: [],
+    category: "soup",
+    ingredient: [
+      `1 kg goat meat,
+1 small tuber of yam,
+2 tablespoon grounded crayfish,
+Dry grounded pepper,
+1 tablespoon pepper soup spices,
+2 seasoning cube,
+1 cup shredded dry fish,
+Scent leaf,
+Salt (to taste).`,
+    ],
+    desc: [
+      `Wash your meat and put in a pot, add salt some pepper soup spices then add little water to it and boil till tender, you can be topping up the water till it's done.
+Next top up the meat with in the pot with about two litres of water.
+Peel the yam, cut and add to the pot.
+Add dry pepper, crayfish, dry fish, salt knorr cube and the remaining pepper soup spices.
+Cook till the yam is done, add scent leaf, taste and adjust then bring down.
+Note: you can serve along side with palm oil.`,
+    ],
   },
   {
     foodname: "Vegetable Sauce",
     image: "/vegetable sauce.jpg",
-    ingredient: [],
-    desc: [],
+    category: "sauce",
+    ingredient: [
+      `1/2 Cup Palm oil,
+Fresh tomatoes: 4 pieces (chopped),
+Fresh pepper: 3 pieces (roughly blended),
+Crayfish: ¼ Cup (blended),
+Smoked fish: 1 Cup (washed and deboned),
+1/2 tablespoon Seasoning,
+1 tablespoon Salt,
+Ugu/water leaf/green leaf or other vegetable of your choice`,
+    ],
+    desc: [
+      `In a pot set on medium heat, pour in palm oil, allow to heat up a bit, then add chopped onion.
+Next, add chopped tomatoes, blended pepper, and stir fry for two minutes.
+Add blended crayfish, washed and deboned smoked fish, seasoning, and salt the stir fry for 5 minutes.
+Add washed and sliced ugu leaves, and stir to combine all well.
+Turn off the heat and your vegetable sauce is ready.
+Serve with any meal of your choice.`,
+    ],
   },
   {
     foodname: "Waina",
     image: "/Waina.jpg",
-    ingredient: [],
-    desc: [],
+    category: "snack",
+    ingredient: [
+      `4 cups white rice,
+1 cup normal rice (cook),
+1 tbsp yeast,
+1 tsp baking powder,
+Sugar to taste,
+Salt to taste,
+Medium size onion,
+Oil for frying,`,
+    ],
+    desc: [
+      `Wash and soak rice overnight, in the morning wash rice again add in cook rice, yeast and blend till smooth.
+Add water to adjust the thickness then place in a warm place to rise, add in sugar, baking powder, salt, 
+onion and stir well.
+Heat the masa pan add some veg oil in each section of the pan, scoop the masa batter and let in cook till 
+golden brown then turn the other side and allow it to cook till golden brown again.`,
+    ],
   },
   {
     foodname: "Yam Porridge",
     image: "/yam.jpg",
-    ingredient: [],
-    desc: [],
+    category: "rice",
+    ingredient: [
+      `1 kg white yam (Peel and cut the yam tuber into medium sizes. Wash the yam cubes and place in a sizeable pot.)
+Red palm Oil (to colour),
+1 smoked fish (mackerel) (If using dry fish, soak and pick the bones.),
+1 tablespoon ground crayfish,
+1 medium onion (cut the onions into tiny pieces),
+Chilli Pepper (Grind or blend the chilli pepper.)
+Salt (to taste),
+2 seasoning cubes,
+`,
+    ],
+    desc: [
+      `Pour enough water to cover the yam cubes and start cooking at medium to high heat. If you are using dry fish, add it now.
+When the yams have got a good boil, add the onions, ground crayfish, pepper, stock cubes, palm oil and the smoked fish.
+Cover the pot and continue cooking till the yam is done.
+Add salt to taste and stir very well. Cook at high heat for about 5 minutes.`,
+    ],
   },
   {
-    foodname: "Beans and Plaintain",
+    foodname: "Beans and Plantain",
     image: "/Beans.jpg",
-    ingredient: [],
-    desc: [],
+    category: "beans",
+    ingredient: [
+      `3 cups of brown/White beans
+1 bulb of onion
+1 cup palm oil
+1 Large,fresh tomatoes
+1 red bell pepper 
+1 seasoning cube
+2 heaped tablespoon of crayfish
+1 red chilli 
+ Salt (to taste)`,
+    ],
+    desc: [
+      `Pick the dirt in the beans, then wash put in a pot, add water, half bulb of 
+      onion and salt then set on fire and start cooking, top up water as you cook then cook till done.
+While the beans is cooking, blend the pepper and tomatoes then set aside for later use.
+When the beans is cooked, add one cup of palm oil in a sauce big sauce pan then heat for few seconds, 
+add diced onion, at this point add the blended pepper and continue frying till oil starts to float on top, 
+that's a sign that it's fried.
+Next, add the blended crayfish and seasoning then add the cooked beans and start to stir for about five minutes
+Lower your heat and let it simmer for another three minutes, taste and adjust then put off the heat`,
+    ],
   },
   {
     foodname: "Beef Stew",
     image: "/Beef Stew.jpg",
-    ingredient: [],
-    desc: [],
+    category: "sauce",
+    ingredient: [
+      `
+      3 red bell peppers,
+400 g canned chopped tomatoes,
+1 medium onion,
+3 scotch Bonnet,
+3 tsp chicken bouillon powder use according to preference,
+1 tsp salt,
+1 tsp oregano optional,
+1 kg beef,
+1 cup veg oil,
+½ tsp curry optional,
+½ tsp thyme optional,`,
+    ],
+    desc: [
+      `Boil beef with 2tsp bouillon powder, ½ tsp salt and chopped onion, oregano and boil till tender. This should take between 20 minutes or longer depending on the cut of meat used. Tougher meat would take longer to cook. Take the beef out of the stock, sieve the stock to get rid of scum and reserve for later
+Place a saucepan on medium heat, add vegetable oil and heat till hot, carefully drop the meat into the hot oil and fry until golden brown. You may choose to grill the meat for healthier option
+Place the fried beef on a kitchen towel and move on to cooking the stew
+To the hot oil, carefully add the pepper mix, stir to combine, cover the pan with a lid and cook for 10 minutes. Stir to combine, if the stew is becoming thick, add beef stock or water to avoid burning. (Remember this is fried stew so you only need to add little water/stock at a time if using at all)
+Add curry and thyme or any other spices you choose to add and stir to combine.
+Add bouillon powder or salt (you can use the combination of both but be careful, so you don’t overdo it. Remember you have added salt and bouillon to boil the beef. Also, if you have added the beef stock to the stew, you might not need to add salt or bouillon powder)
+Return the fried beef to the stew, stir until well combined and continue to simmer for another 10 to 15 minutes or until oil floats on top of the stew.
+Turn off the heat and serve stew warm with side of choice.
+`,
+    ],
   },
   {
     foodname: "Pap",
     image: "/pap.jpg",
-    ingredient: [],
-    desc: [],
+    category: "snack",
+    ingredient: [
+      `Pap,
+Water (Hot and Cold),
+Evaporated Milk (Peak Milk),
+Sugar (to taste).`,
+    ],
+    desc: [
+      `Put some lumps of akamu/ogi/pap into a sizeable bowl. Akamu rises during preparation so you should use a bowl big enough to contain the meal in its risen state. If in doubt, use a very big bowl, with time, you will learn which quantity can comfortably fit is which bowl size.
+Use a tablespoon to crush the lumps of ogi into very small pieces.
+Add cool water in small quantities and mix till you have a medium consistency with no lumps. Your aim should be to mix the akamu as thick as possible. See the video below.
+Put a kettle of water to boil. Make sure the water will be enough. It is better to boil too much water than not have enough water when making akamu.
+Just before the water boils, stir the mix very well because some of the ogi may have settled at the bottom of the bowl. If not stirred well, this is the major cause of lumps when you start making it.
+Once the water boils, pour it slowly but steadily in a circular motion into the bowl of akamu and stir at the same time. Pouring the hot water slowly and stirring at the same is very important because this prevents lumps.
+Once you see the mixture setting, stop stirring and reduce the flow of water you are pouring till the akamu has completely set.
+Set the kettle aside and stir the pap very well. If it is too thick for you, you can add more hot water. But be careful else it will become watery. Remember that you will still add liquid evaporated milk.
+Add peak evaporated milk and some sugar to taste and stir everything to the way you like it.`,
+    ],
   },
   {
     foodname: "Potato Porridge",
     image: "Potato Porridge.jpg",
-    ingredient: [],
-    desc: [],
+    category: "rice",
+    ingredient: [
+      `3 large sweet potatoes,
+Dry prawns,
+Crayfish,
+Fresh bonnet peppers blended,
+1 large Onions,
+2 cookingspoon spoon palm oil,
+Clean water,
+Pumpkin and scent leafs mixed,
+cubes Seasoning,
+Salt.`,
+    ],
+    desc: [
+      `Blend parts of the crayfish with the onions and peppers roughly. Set aside.
+Peel the potatoes, dice them as desired.
+Pour water in a clean pot enough to cook the potatoes. Place it on heat.
+Add the blended crayfish and wash the other parts with the dry prawns and also add to the water.
+Immediately it starts heating up or boiling, add the diced potatoes, seasoning cubes and cover to cook.
+Keep an eye on it because it cooks in about 15-20minutes. If you feel you need you porridge more watery then add more water to it to get that.
+After 10 minutes add the palm oil, taste for salt and cover. After 15minutes add the sliced pumpkin leafs and scents leafs mix to the porridge. Stir and drop from heat if thick enough.
+Any porridge becomes thicker after dropping from heat, so watch the consistency before bringing it down from heat.`,
+    ],
   },
   {
     foodname: "Plantain Moi-moi (Ukpo Ogede)",
     image: "/Plantain Moi Moi (Ukpo Ogede).jpg",
-    ingredient: [],
-    desc: [],
+    category: "rice",
+    ingredient: [
+      `2 medium size of over ripe plantain
+200 g unripe plantain flour
+1 cksp palm oil
+1 cksp ground crayfish
+1 handful deboned boiled fish
+1 medium size onions bulb
+2 seasoning cubes
+to taste Pepper and salt,
+Nylon or Uma leaves`,
+    ],
+    desc: [
+      `Place the unripe plantain flour into a bowl, add a little warm water and mix until you get a smooth paste, set aside.
+Peel and slice the over ripe plantain, blend with crayfish, onions and pepper into a smooth paste and pour into the bowl of unripe plantain flour mix thoroughly and add a little warm water to get a lighter but not watery consistency.
+Add palm oil, Maggi and salt, mix and scoop into your nylon or any containers you wish to use (nylon is not advisable) put your fish and tie, continue till you finished all. Cook for 45minutes and off gas.`,
+    ],
   },
   {
     foodname: "YARIMATA-YAM",
     image: "/YARIMATA-YAM RECIPE.jpg",
-    ingredient: [],
-    desc: [],
+    category: "sauce",
+    ingredient: [
+      `3 slices yam,
+2 cups flour,
+4 eggs,
+1 onion diced,
+2 fresh pepper diced,
+1 green bell pepper diced,
+1 tin peak milk,
+Dash dry herbs,
+1 stock cube,
+Veg oil for frying,
+1 garlic diced,
+ Salt (to taste).`,
+    ],
+    desc: [
+      `Slice yam into desired shapes and set aside, break eggs into a lag bowl and whisk set aside once done.
+Parboil yam for about 5 to 7 minutes, drain the water and run cold water over the yam to stop the cooking 
+process then set aside to cool off.
+Add milk into the whisked egg, add pepper, onion, garlic, dry herbs and salt, flour then mix everything 
+together, if the consistency is too thick, add a little water till you get the right consistency then finally add green bell pepper.
+Heat up a shallow pot and add veg oil for frying. Once it’s hot you can start frying. 
+Get another plate and add the remaining 1/2cup flour, spice to flour to your desire taste or leave it plain.
+Dust your yam into the plain flour then dip it into the batter and then fry. 
+Turn to the other side after 3 to 4 minutes and do the same till it’s golden brown, 
+remove from heat and complete the same method for the remaining batch.
+Serve with any sauce of your choice.
+`,
+    ],
   },
   {
     foodname: "Achicha-Ede",
     image: "/achicha-ede.jpg",
-    ingredient: [],
-    desc: [],
+    category: "rice",
+    ingredient: [
+      `3 cups fio-fio(pigeon peas),
+3 cups achicha(cocoyam)smashed,
+5 milk cups of red oil,
+3 handfull of scent leaf,
+5 big balls of onions,
+2 seasoning cubes,
+15 pieces fresh pepper,
+4 handfull of ukpaka,
+ Salt (to taste),
+fish(optional),
+nylon(for achicha).`,
+    ],
+    desc: [
+      `Select and wash your pigeon peas.
+A picture of step 1 of Achicha and fio-fio(dried cocoyam and pigeon peas).
+Put it in a pot and make sure water covers it.
+Cook for 30 mins, wash and return it into the pot and start cooking it.
+In a bowl of water pour the already crushed cocoyam,allow it to soak for 10mins.
+Wash it properly until there is no trace of sand under it,drain it out from water. 
+Tie them beat by beat with nylon and put inside the already cooking pot where the pigon peas are.
+Allow it to cook for 30mins remove it from fire and let the pigeon peas to cook until is soft,that means is done.
+Drain the water in it,untie the cocoyam mix it with the pigeon peas.
+In a separate pot or frying pan add red oil allow it to get hot 3 mins is okay.
+Add onions,pepper,ukpaka,maggi,scent leaf,salt to taste,allow it to cook for 10 mins.
+Mix the already prepared sauce together with the pigeon peas and cocoyam together.Y 
+our food is good to go. You can serve it with fried fish if you wish.`,
+    ],
   },
   {
-    foodname: "Agidi Eko",
+    foodname: "Agidi or Eko",
     image: "/agidi-eko.jpg",
-    ingredient: [],
-    desc: [],
+    category: "snacks",
+    ingredient: [
+      `8 cups of corn,
+Chiffon cloth,
+Bowls,
+Lots of clean water,
+Uma leaves.`,
+    ],
+    desc: [
+      `Wash the corn and transfer into a cooking pot, add water to cover them and set on heat. Stir occasional and turn off the heat when it is about to boil.
+Drain the water and take the corn to the grinding mill, There are lots of places to grind agidi corn in Nigeria for a very little amount of money. You may not use a blender.
+Grind the corn and rinse it.
+Drape the chiffon cloth over a big bowl and tie it up. Scoop in some ground corn in handful portions and tart rubbing it on the surface while adding water. At some point you will feel just the chaff. Remove it and scoop in more ground corn.
+At the point when your hand can feel the water in the bowl from the top of the chiffon cloth, stop adding water and just rinse the ground corn.
+Once ground corn is mixed with enough water, the starch will escape into the bowl as you keep robbing on them while the chaff is left on the surface. This should be easy.
+Remove the chiffon cloth once you are done and allow the starch in the bowl to sit for up to 3 hours.
+After three hours, the starch should have settled at the bottom of the bowl and water on top. 
+Decant pour out the clear water and stir what is left with a wooden turner. It should not be as thick as dissolved.
+It should be about 2 litters (2000ml) if you used 8 cups of corn. Pour into a pot, 
+set on heat and start stirring with a wooden turner. The heat shouldn’t be too much, 
+if it is forming solid crumbs, then the heat is too much. Reduce it a little. Continue stirring until 
+it looks like prepared pap but maybe a little thicker. This should take about 15 minutes before you get 
+to this point. Pour into smaller plates or use a leave to wrap. My video shows you how to use the leaves 
+and gives you a visual version of how to make agidi or eko the Nigerian way.
+Allow 1-3 hours for the agidi to cool and solidify. Serve with boiled beans and tomato stew. I love it that way. You can also serve with moi moi or akara.
+`,
+    ],
   },
   {
     foodname: "Agidi Jollof",
     image: "/agidi-jollof.jpg",
-    ingredient: [],
-    desc: [],
+    category: "snacks",
+    ingredient: [
+      `Chewable bones,
+Akamu/ogi,
+cubes Stock,
+Onion,
+Curry powder,
+Salt,
+Fresh pepper,
+Uma leaves for the wrapping,
+Stew.`,
+    ],
+    desc: [
+      `Wash the uma raced with salt and water then keep one side.
+Pound pepper,cut onion.put the soft bones in a pot,add onion and stock cubes.pour in water to the same level as the bone and start cooking.
+Add pepper and curry powder stir and simmer for few mins then set aside.
+Mix the akamu with water in a pot,add the water bit by bit because it is the best way to get good mixture without lumps.This should be done off the heat.
+When done,heat up water.pour in hot water into the akamu mix stir at the same time till it thickens.
+Let the heat be low,continue stirring till the agidi is completely solid.
+Add the agidi stew add enough quantity to give it a rich red colour.mix the stew till is completely incorporated with the agidi.
+Add drops of water to the mix cover and leave to simmer.
+Mix again to combine the water and the agidi jollof.dish the agidi on the uma leaves and wrap it up.`,
+    ],
   },
   {
     foodname: "Boiled-white-coconut-rice",
     image: "/boiled-white-coconut-rice.jpg",
-    ingredient: [],
-    desc: [],
+    category: "rice",
+    ingredient: [
+      `2 cups parboiled white rice
+1 coconut,
+½ cup shrimps,
+¼ cup green peas,
+Salt (to your taste).`,
+    ],
+    desc: [
+      `Use the coconut to make some fresh Coconut Milk. Click here for details.
+Set some water in a pot to boil. We will use it to preecook the rice.
+When it boils, add the rice and cook on medium heat for about 10 minutes.
+Pour it out in a sieve to drain then quickly cool it down with water.
+Pour the coconut milk in a clean pot and set it on the stove to boil.
+When it boils, add the precooked rice stir and make sure the coconut milk is at the same level as the rice. If not top it up with water. See the video below.
+Add salt and the shrimps.
+Cover the pot and start cooking on medium heat.
+When the liquid is almost dry, add the green peas and continue cooking.
+When all the liquid dries up, the rice should be down. That is if you precooked the rice correctly.`,
+    ],
   },
   {
     foodname: "Ofe Akwu (Banga Stew)",

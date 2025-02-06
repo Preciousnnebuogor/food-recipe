@@ -26,15 +26,15 @@ export const FoodList: IFood[] = [
       A handful of garden egg leaves (optional, chopped).`,
     ],
     desc: [
-      "Soak the Abacha in cold water for 5-10 minutes until soft. Drain and set aside.",
-      "Dissolve the potash in warm water. Let it settle, then pour the clear liquid into a bowl, leaving the residue behind.",
-      "In a clean bowl, pour the palm oil. Gradually add the potash solution while stirring until a thick, yellowish paste forms.",
-      "Add ground crayfish, pepper, seasoning cubes, ground ehuru, and a pinch of salt into the oil mixture. Mix thoroughly.",
-      "Add the softened Abacha and ugba (if using) into the palm oil mixture. Mix until the Abacha is well coated.",
-      "Prepare the fish by either frying or soaking dry fish in warm salted water to soften, then clean and debone.",
-      "Add the prepared fish to the Abacha mixture. Mix gently to incorporate.",
-      "Garnish with sliced onions, chopped garden egg leaves, or scent leaves for extra flavor.",
-      "Serve at room temperature with a drink of your choice.",
+      `Soak the Abacha in cold water for 5-10 minutes until soft. Drain and set aside.,
+      Dissolve the potash in warm water. Let it settle, then pour the clear liquid into a bowl, leaving the residue behind.
+      In a clean bowl, pour the palm oil. Gradually add the potash solution while stirring until a thick, yellowish paste forms.
+      Add ground crayfish, pepper, seasoning cubes, ground ehuru, and a pinch of salt into the oil mixture. Mix thoroughly.
+      Add the softened Abacha and ugba (if using) into the palm oil mixture. Mix until the Abacha is well coated.,
+      Prepare the fish by either frying or soaking dry fish in warm salted water to soften, then clean and debone.
+      Add the prepared fish to the Abacha mixture. Mix gently to incorporate.
+      Garnish with sliced onions, chopped garden egg leaves, or scent leaves for extra flavor.
+      Serve at room temperature with a drink of your choice.`
     ],
   },
   {

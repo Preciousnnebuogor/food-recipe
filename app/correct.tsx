@@ -25,11 +25,11 @@ export default function Correct() {
         <div
           className={`flex flex-col items-center justify-center w-full max-w-lg`}
         >
-          <p className={`font-bold text-xl mb-4 mt-20 `}>
-            Food meals for your Ingredients
+          <p className={`font-bold text-xl mb-4 md:mt-20 mt-10`}>
+            Nigerian Home-made Recipes
           </p>
           <h6 className={`text-xs mb-4`}>
-            Nigeria home made foods with all ingredient can <br /> - James Mark
+            Nigeria food is a taste of culture, tradition and love <br /> - Simplicity meets greatness
           </h6>
 
           <div

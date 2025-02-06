@@ -531,7 +531,7 @@ Your ekpang dish is ready. Bring it down and enjoy this African goodness.`,
   {
     foodname: "Ewa Agoyin",
     image: "/Ewa Agoyin.jpg",
-    category: "",
+    category: "beans",
     ingredient: [
       `4 cups Beans,
 Water,
@@ -725,12 +725,12 @@ Salt to Taste.`,
 Add the peeled beans into a pot, place on a hob on high heat. Add water and cook till very soft and mushy. 
 Be careful not to add too much water, You can start with 2 cups and add as you go, if necessary. Do not add salt.
 Use an Ijabe (Ewedu broom) to mash up the beans or a whisk. Save time and energy by blending till smooth in your 
-jug blender. If you’re using a blender, be sure to wait till the beans has cooled down a bit before blending 
-so you don’t risk damaging your blender. Add water to the beans before blending, not too much though, 
+jug blender. If you are using a blender, be sure to wait till the beans has cooled down a bit before blending 
+so you do not risk damaging your blender. Add water to the beans before blending, not too much though, 
 say half a cup.
-If you used an Ijabe to mash the beans, you’ll need to pass the the paste through a sieve to remove clumps and 
-get a really smooth consistency. If your blender is very powerful, you wouldn’t need to do this. As you can see, 
-mine was blended smoothly, I’m only sieving to illustrate beetter…
+If you used an Ijabe to mash the beans, you will need to pass the the paste through a sieve to remove clumps and 
+get a really smooth consistency. If your blender is very powerful, you will not need to do this. As you can see, 
+mine was blended smoothly.
 Now, return the paste back into the pot and on low heat this time around. You might need to add a bit of water 
 to the paste. Mine was really thick and had to water it down a bit. The consistency should be semi- fluid.
 Add the palm oil, Iru, crayfish powder, Knorr cube, ground pepper and salt to taste. Be careful not to add 
@@ -1218,7 +1218,7 @@ Let it simmer on low heat for few minutes and you are done.`,
   {
     foodname: "Ofada Stew",
     image: "/Ofada Stew.jpg",
-    category: "rice",
+    category: "sauce",
     ingredient: [
       `
         Beef,
@@ -1342,7 +1342,7 @@ Your delicious oha soup is ready to be eaten with any swallow of your choice.
   {
     foodname: "Okpa",
     image: "/okpa.jpg",
-    category: "Beans",
+    category: "snack",
     ingredient: [
       `Okpa flour (1 & ¹/² mudu),
 Palm oil (1 bottle),
@@ -1714,7 +1714,7 @@ Any porridge becomes thicker after dropping from heat, so watch the consistency 
   {
     foodname: "Plantain Moi-moi (Ukpo Ogede)",
     image: "/Plantain Moi Moi (Ukpo Ogede).jpg",
-    category: "rice",
+    category: "snack",
     ingredient: [
       `2 medium size of over ripe plantain
 200 g unripe plantain flour
@@ -1735,7 +1735,7 @@ Add palm oil, Maggi and salt, mix and scoop into your nylon or any containers yo
   {
     foodname: "YARIMATA-YAM",
     image: "/YARIMATA-YAM RECIPE.jpg",
-    category: "sauce",
+    category: "rice",
     ingredient: [
       `3 slices yam,
 2 cups flour,
@@ -1768,7 +1768,7 @@ Serve with any sauce of your choice.
   {
     foodname: "Achicha-Ede",
     image: "/achicha-ede.jpg",
-    category: "rice",
+    category: "beans",
     ingredient: [
       `3 cups fio-fio(pigeon peas),
 3 cups achicha(cocoyam)smashed,
@@ -1801,7 +1801,7 @@ our food is good to go. You can serve it with fried fish if you wish.`,
   {
     foodname: "Agidi or Eko",
     image: "/agidi-eko.jpg",
-    category: "snacks",
+    category: "snack",
     ingredient: [
       `8 cups of corn,
 Chiffon cloth,
@@ -1832,7 +1832,7 @@ Allow 1-3 hours for the agidi to cool and solidify. Serve with boiled beans and 
   {
     foodname: "Agidi Jollof",
     image: "/agidi-jollof.jpg",
-    category: "snacks",
+    category: "snack",
     ingredient: [
       `Chewable bones,
 Akamu/ogi,
@@ -1857,7 +1857,7 @@ Mix again to combine the water and the agidi jollof.dish the agidi on the uma le
     ],
   },
   {
-    foodname: "Boiled-white-coconut-rice",
+    foodname: "Boiled white coconut-rice",
     image: "/boiled-white-coconut-rice.jpg",
     category: "rice",
     ingredient: [
@@ -1982,7 +1982,7 @@ Finally, after 5 minutes, begin to turn the Àmàlà again, keep turning until a
   {
     foodname: "Coleslaw Salad",
     image: "/coleselaw.jpg",
-    category: "rice",
+    category: "snack",
     ingredient: [
       `Cabbage,
 Carrots,
@@ -2024,7 +2024,7 @@ garri if it is too soft or more of the hot water it is too hard.`,
 After that, bring it down from the fire and gradually add your Abebi Yam Flour. Do not add the fufu flour to the water while still on the fire so it doesn’t form lumps.
 Then, turn the fufu flour with a wooden Eba stick (omorogun) quickly so as not to form lumps.
 Turn for a while, add little water and put it back on the fire to cook on low heat for about 5 minutes.
-Finally, after 5 minutes, begin to turn the fufu again, keep turning until a smooth paste is formed. The pulling of the dough into a smooth paste is the most difficult part of making Elubo.`,
+Finally, after 5 minutes, begin to turn the fufu again, keep turning until a smooth paste is formed.`,
     ],
   },
   {
@@ -2045,8 +2045,7 @@ it will gradually come together to form a solid lump of swallow. The change in c
     category: "swallow",
     ingredient: [`Yam`],
     desc: [
-      `Peel the yam and cut moderate size
-A picture of step 1 of Pounded yam.
+      `Peel the yam and cut moderate size.
 Wash and put in a pot add water enough to cover the yam.
 A picture of step 2 of Pounded yam.
 Allow to cook completely and become very soft. Remove the yam and place it in a food 
@@ -2057,7 +2056,7 @@ the pounded yam or make any fancy style of choice. Served mine with rich egusi s
   {
     foodname: "Salad",
     image: "/salad.jpg",
-    category: "rice",
+    category: "snack",
     ingredient: [
       `Medium size cabbage,
 4 medium size carrot,
@@ -2083,8 +2082,16 @@ Soaking the cabbage in warm water was a trick to soften the cabbage, these days,
     foodname: "Semovita Semo (Swallow)",
     category: "swallow",
     image: "/semo.jpg",
-    ingredient: [],
-    desc: [],
+    ingredient: [
+      `Semovita flour
+Water`,
+    ],
+    desc: [
+      `Pour water in a pot & allow it to boil, in a big bowl, pour the semovita & stir with water like a 
+      thick batter but not too thick, when the water boil, pour the batter & close leaving some air space, 
+      allow it until it get thicker & cooked, then pour more of the semovita while stirring, until it thick. 
+      Reduce the flame & allow it, close tightly, off after about 15mins & finally put & thigh in leather. Enjoy.`,
+    ],
   },
   {
     foodname: "Tuwo Shinkafa (Swallow)",
@@ -2104,8 +2111,14 @@ Soaking the cabbage in warm water was a trick to soften the cabbage, these days,
     foodname: "wheat Swallow",
     image: "/wheat swallow.jpg",
     category: "swallow",
-    ingredient: [],
-    desc: [],
+    ingredient: [`Wheat floor,
+        Hot water.`],
+    desc: [`First, heat water on the fire and allow boiling.
+After that, bring it down from the fire and gradually add your wheat Flour. 
+Do not add the wheat flour to the water while still on the fire so it do not form lumps.
+Then, turn the wheat flour with a wooden Eba stick (omorogun) quickly so as not to form lumps.
+Turn for a while, add little water and put it back on the fire to cook on low heat for about 5 minutes.
+Finally, after 5 minutes, begin to turn the fufu again, keep turning until a smooth paste is formed.`],
   },
   {
     foodname: "",

@@ -4,6 +4,7 @@ import { IoIosSearch } from "react-icons/io";
 import { FoodList, IFood } from "./data";
 import { Modal } from "./modal";
 
+
 export default function Correct() {
   const [search, setSearch] = useState("");
   const [list, setList] = useState(FoodList); // Filtered list of foods
@@ -20,14 +21,55 @@ export default function Correct() {
   return (
     <div className={``}>
       {/* Search Section */}
-      <div className={`flex flex-col items-center justify-center`}>
-        <div className={`flex flex-col items-center justify-center w-[500px]`}>
-          <p className={`font-bold text-lg mb-4 mt-20 `}>
+      <div className={`flex flex-col items-center justify-center  px-4`}>
+        <div
+          className={`flex flex-col items-center justify-center w-full max-w-lg`}
+        >
+          <p className={`font-bold text-xl mb-4 mt-20 `}>
             Food meals for your Ingredients
           </p>
+          <h6 className={`text-xs mb-4`}>
+            Nigeria home made foods with all ingredient can <br /> - James Mark
+          </h6>
+
           <div
-            className={`flex justify-center items-center space-x-2 font-bold text-sm mb-4`}
+            className={`border-2 border-green-400 rounded-full pl-4 flex items-center p-0`}
           >
+            <input
+              type="text"
+              value={search}
+              onChange={(e) => {
+                setSearch(e.target.value);
+              }}
+              className=" border-none outline-none bg-transparent"
+            />
+            <div className={`bg-green-400 h-full rounded-e-full`}>
+              <IoIosSearch
+                className={`m-2 text-white`}
+                onClick={() => {
+                  const filteredList = FoodList.filter((value) =>
+                    value.foodname.toLowerCase().includes(search.toLowerCase())
+                  );
+                  setList(filteredList);
+                }}
+              />
+            </div>
+          </div>
+
+          <div
+            className={`md:flex md:justify-between text-sm md:space-x-2 grid grid-cols-4 space-x-2 items-center font-bold md:text-xs m-4 `}
+          >
+            <button
+              onClick={() => {
+                setList(FoodList); // Reset list to show all items
+                setSearch(""); // Clear the search input
+                setVisibleCount(4); // Reset visible count to the default
+                window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to the top smoothly
+              }}
+            >
+              •Home
+            </button>
+
             <button
               onClick={() => {
                 const filteredList = FoodList.filter(
@@ -48,16 +90,7 @@ export default function Correct() {
             >
               •Swallow
             </button>
-            <button
-              onClick={() => {
-                const filteredList = FoodList.filter(
-                  (food) => food.category === "rice"
-                );
-                setList(filteredList);
-              }}
-            >
-              •Rice
-            </button>
+
             <button
               onClick={() => {
                 const filteredList = FoodList.filter(
@@ -86,34 +119,18 @@ export default function Correct() {
                 setList(filteredList);
               }}
             >
-              •Beans
+              •Protein
             </button>
-          </div>
-          <h6 className={`text-xs mb-4`}>
-            Nigeria home made foods with all ingredient can <br /> - James Mark
-          </h6>
-          <div
-            className={`border-2 border-green-400 rounded-full pl-4 flex items-center p-0`}
-          >
-            <input
-              type="text"
-              value={search}
-              onChange={(e) => {
-                setSearch(e.target.value);
+            <button
+              onClick={() => {
+                const filteredList = FoodList.filter(
+                  (food) => food.category === "rice"
+                );
+                setList(filteredList);
               }}
-              className=" border-none outline-none bg-transparent"
-            />
-            <div className={`bg-green-400 h-full rounded-e-full`}>
-              <IoIosSearch
-                className={`m-2 text-white`}
-                onClick={() => {
-                  const filteredList = FoodList.filter((value) =>
-                    value.foodname.toLowerCase().includes(search.toLowerCase())
-                  );
-                  setList(filteredList);
-                }}
-              />
-            </div>
+            >
+              •Carbonhydrate
+            </button>
           </div>
         </div>
       </div>

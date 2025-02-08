@@ -289,7 +289,7 @@ Enjoy with your choice drink!!!`,
   },
   {
     foodname: "Catfish Pepper Soup",
-    image: "/Catfish Peppersoup.jpg",
+    image: "/Catfishpeppersoup.jpg",
     category: "soup",
     ingredient: [
       `1 medium-sized catfish (1.2KG),
@@ -776,7 +776,7 @@ Serve with rice or any swallow of choice.`,
   },
   {
     foodname: "Gurasa",
-    image: "Gurasa.jpg",
+    image: "/Gurasa.jpg",
     category: "snack",
     ingredient: [
       `2 cups flour,
@@ -827,7 +827,7 @@ Serve with your boiled yam or rice.`,
   },
   {
     foodname: "Jollof Rice",
-    image: "jollof rice.jpg",
+    image: "/jollof rice.jpg",
     category: "rice",
     ingredient: [
       `1 cup Rice,
@@ -922,7 +922,7 @@ Kuli kuli is ready. Is very very good for snack.`,
   {
     foodname: "Miyan Geda (Soup)",
     category: "soup",
-    image: "Miyan Geda.jpg",
+    image: "/Miyan Geda.jpg",
     ingredient: [
       `2 cups of groundnuts peanuts,
 Hibiscus white optional,
@@ -1686,7 +1686,7 @@ Add peak evaporated milk and some sugar to taste and stir everything to the way 
   },
   {
     foodname: "Potato Porridge",
-    image: "Potato Porridge.jpg",
+    image: "/Potato Porridge.jpg",
     category: "rice",
     ingredient: [
       `3 large sweet potatoes,

@@ -3,6 +3,8 @@ import { useState } from "react";
 import { IoIosSearch } from "react-icons/io";
 import { FoodList, IFood } from "./data";
 import { Modal } from "./modal";
+import Image from "next/image";
+
 
 
 export default function Home() {
@@ -142,8 +144,11 @@ export default function Home() {
         {list.slice(0, visibleCount).map((value, index) => (
           <div key={index} className={`flex flex-col items-center mb-4`}>
             <div className={`border-2 border-green-400 rounded`}>
-              <img
+              
+              <Image
                 src={value.image}
+                width={250}
+                height={250}
                 className={`w-[250px] h-[250px]`}
                 alt={value.foodname}
               />
